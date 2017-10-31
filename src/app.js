@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Counter from './components/Counter';
+import TextEditor from './components/Editor';
+import './index.css'
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
   ReactDOM.render(
-    React.createElement(Counter),
+    <TextEditor />,
     document.getElementById('mount')
   );
 });
